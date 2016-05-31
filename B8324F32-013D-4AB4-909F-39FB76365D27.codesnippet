@@ -3,28 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vcinit</string>
+	<string>tfd</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    // MARK: Initialization
+	<string>    // MARK: UITextFieldDelegate
 
-    init(&lt;#Parameters...#&gt;) {
-        &lt;#Initialize Constants#&gt;
-        super.init(nibName: self.dynamicType.ip_nibName, bundle: nil)
+    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -&gt; Bool {
+        &lt;#code#&gt;
     }
 
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+    func textFieldShouldReturn(textField: UITextField) -&gt; Bool {
+        &lt;#code#&gt;
+    }
+
+    func textFieldDidEndEditing(textField: UITextField) {
+        &lt;#code#&gt;
     }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E75E982E-A49B-4A06-8376-7D59ADB6962C</string>
+	<string>B8324F32-013D-4AB4-909F-39FB76365D27</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>View Controller Subclass Init</string>
+	<string>UITextFieldDelegate Methods</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

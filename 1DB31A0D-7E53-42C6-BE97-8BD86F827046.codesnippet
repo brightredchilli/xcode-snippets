@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>pvds</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    // MARK: UIPickerViewDataSource
+
+    func numberOfComponentsInPickerView(pickerView: UIPickerView) -&gt; Int {
+        &lt;#code#&gt;
+    }
+
+    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -&gt; Int {
+        &lt;#code#&gt;
+    }
+
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -&gt; String? {
+        &lt;#code#&gt;
+    }
+
+    // MARK: UIPickerViewDelegate
+
+    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        &lt;#code#&gt;
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1DB31A0D-7E53-42C6-BE97-8BD86F827046</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>PIcker View Data Source</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

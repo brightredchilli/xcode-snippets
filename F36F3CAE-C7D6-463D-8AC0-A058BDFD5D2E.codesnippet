@@ -3,28 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>vcinit</string>
+	<string>tvds</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    // MARK: Initialization
+	<string>    // MARK: UITableViewDataSource
 
-    init(&lt;#Parameters...#&gt;) {
-        &lt;#Initialize Constants#&gt;
-        super.init(nibName: self.dynamicType.ip_nibName, bundle: nil)
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+        &lt;#code#&gt;
     }
 
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -&gt; UITableViewCell {
+        &lt;#code#&gt;
+    }
+
+    // MARK: UITableViewDelegate
+
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        &lt;#code#&gt;
     }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E75E982E-A49B-4A06-8376-7D59ADB6962C</string>
+	<string>F36F3CAE-C7D6-463D-8AC0-A058BDFD5D2E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>View Controller Subclass Init</string>
+	<string>Table View DataSource</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
