@@ -3,20 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dbg_redborder</string>
+	<string>dbg_rainbow</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>layer.borderColor = UIColor.red.cgColor
-layer.borderWidth = 1</string>
+	<string>let rainbow: [UIColor] = [.blue, .red, .green, .yellow, .purple, .cyan, .magenta]
+        let array: [UIView] = &lt;#views#&gt;
+        for (i, v) in array.enumerated() {
+            v.backgroundColor = rainbow[i % array.count]
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CD1E4F26-EB0B-4CED-A458-70117E676381</string>
+	<string>6026EDAB-A42E-4C0A-9ACD-C4B08AF4CD2C</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Debug Red Border</string>
+	<string>rainbow color debug</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

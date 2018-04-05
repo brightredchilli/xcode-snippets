@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>backgroundColor = UIColor.redColor().colorWithAlphaComponent(0.3)</string>
+	<string>backgroundColor = .red.colorWithAlphaComponent(0.3)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E73D510D-8B12-4B4A-8AC5-81C92F642D21</string>
 	<key>IDECodeSnippetLanguage</key>

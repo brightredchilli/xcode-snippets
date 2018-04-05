@@ -3,20 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dbg_layer</string>
+	<string>psmth1</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>self.layer.borderColor = UIColor.redColor().CGColor
-        self.layer.borderWidth = 1</string>
+	<string>print("&lt;#thing#&gt;: \(&lt;#something#&gt;)")</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F8BCF084-3351-48D8-975B-A21A2C3FD914</string>
+	<string>6F603B84-B1DB-4770-8C07-B71023AE3A3A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Debug Red Layer Border</string>
+	<string>Print something</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
